@@ -97,7 +97,7 @@ header {
 
  .nav__menu ul {
     display: flex;
-    justify-content: space-between;
+
     gap: 15px;
 
 }
@@ -195,6 +195,8 @@ video {
 /* -------------------Hero-------------------------- */
 
 .cards_secction {
+    max-width: 1100px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 15px;
