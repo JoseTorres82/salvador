@@ -63,8 +63,6 @@ header {
     align-items: center;
     font-family: 'Nova Flat', cursive;
     background: #000;
-    /* border-bottom: solid 2px crimson; */
-
 
 }
 
@@ -145,11 +143,10 @@ header {
 
 /* -------------------Video Banner-------------------------- */
 .bannervid {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     width: 100%;
     position: relative;
-
 }
 
 video {
@@ -188,7 +185,7 @@ video {
     height: 350px;
     overflow: hidden;
     place-content: center;
-    opacity: 25%;
+    opacity: 45%;
     border-radius: 3px;
 }
 
@@ -203,82 +200,37 @@ video {
 
 /* -------------------Hero-------------------------- */
 
-/* .cards_secction {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 15px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 25px;
-    place-content: center;
-}*/
-
 .cards_secction h3 {
-    color:crimson ;
+    color: crimson;
     font-size: 22px;
     font-weight: 400px;
+    margin-bottom: 15px;
 }
 
-/*.cards_secction .cards__container {
-    display: flex;
-    width: 600px;
-    height: 450px;
-}
 
-.cards_secction .cards__container .card {
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-.cards_secction .cards__container img {
-    width: 0;
-    height: 450;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-
-.cards_secction .cards__container img:hover {
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-
-}
-
-.cards_secction  .videoprom {
-  
-    margin: 0 auto;
-    width: 300px;
-    height:450px;
-    margin-top: 20px;
-    position: relative;
-} */
 .cards_secction {
     max-width: 1100px;
     margin: 0 auto;
     place-content: center;
     columns: 5 320px;
-    gap: 10px;
-    margin-top: 15px;
+    column-gap: 15px;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .cards_secction .cards__container img {
     max-width: 320px;
     border-radius: 10px;
+    margin: 0 auto;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
 }
 
-.cards_secction .videoprom {
-    width: 320px;
-    margin-top: 20px;
-    position: relative;
-    border-radius: 10px;
-}
 
+.cards_secction .cards__container img:hover {
+    transform: scale(1.1);
+  
+}
 
 /* --------------------cards---------------------- */
 
@@ -357,11 +309,27 @@ video {
     align-items: center;
 }
 
+.media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
 .media iframe {
     margin-top: 45px;
     margin-left: 15px;
     width: 300px;
 }
+
+.media .videoprom {
+    width: 320px;
+    height: 300px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
 
 /**********************FOOTER******************************/
 .footer {
