@@ -294,6 +294,82 @@ video {
         background-position: 0 0;
     }
 }
+/* shop banner */
+.shop__banner {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 1100px;
+    height: 200px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #161616;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 0.5px darkslateblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.shop__banner .shop-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    text-transform: uppercase;
+    font-size: 20px;
+    justify-items: center;
+    
+}
+/* .shop__banner .shop-title .btnshop {
+    width: 140px;
+    height: 40px;
+    margin: 15px;
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 32px;
+    position: relative;
+    border-radius: 12px;
+    text-decoration: none;
+} */
+.shop__banner .baglogo {
+    width: 60px;
+    height: 60px;
+    background: #f1f2f3;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.shop__banner .shop-promo {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.shop__banner .shop-promo h4, p{
+    font-family: 'karla', sans-serif;
+    text-align: center;
+    font-weight: 200;
+}
+.shop__banner .shop-promo h4{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.shop__banner .shop-promo img{
+    max-height: 100px;
+    border-radius:8px ;
+    transition: all 5s ease-in-out;
+}
+.shop__banner .shop-promo img:hover{
+    zoom: 2;
+    position: relative;
+
+}
 
 /* media */
 .media {
