@@ -65,7 +65,7 @@
     }
     
     #btn-menu:checked~.menu {
-        max-width: 990px;
+        max-width: 576px;
         margin: 0 auto;
         width: 100%;
         display: flex;
@@ -154,6 +154,12 @@
             font-weight: 400;
 
         }
+        .hero__container{
+            max-width: 480px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
 
         .hero__container h2 {
             text-align: center;
@@ -161,7 +167,7 @@
             font-family: "Nova Flat", cursive;
             position: absolute;
             top: 250px;
-            left: calc(5%);
+            left: calc(25%);
         }
 
         .hero__container .hero-img img {
@@ -218,7 +224,7 @@
         }
 
         .shop__banner {
-            max-width: 576px;
+            max-width: 480px;
             margin: 0 auto;
             width: 100%;
             height: auto;
@@ -244,6 +250,7 @@
         }
 
         .media {
+            width: 480px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             justify-items: center;
