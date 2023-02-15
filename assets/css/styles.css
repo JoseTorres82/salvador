@@ -321,19 +321,7 @@ video {
     justify-items: center;
     
 }
-/* .shop__banner .shop-title .btnshop {
-    width: 140px;
-    height: 40px;
-    margin: 15px;
-    background-color: #000;
-    border: none;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 16px 32px;
-    position: relative;
-    border-radius: 12px;
-    text-decoration: none;
-} */
+
 .shop__banner .baglogo {
     width: 60px;
     height: 60px;
