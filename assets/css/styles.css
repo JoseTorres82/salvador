@@ -351,10 +351,12 @@ video {
 .shop__banner .shop-promo img{
     max-height: 100px;
     border-radius:8px ;
+    overflow-clip-margin: content-box;
+    overflow: clip;
     transition: all 5s ease-in-out;
 }
 .shop__banner .shop-promo img:hover{
-    zoom: 2;
+    transform: scale(1.05);
     position: relative;
 
 }
@@ -365,9 +367,9 @@ video {
     margin: 0 auto;
     height: 400px;
     background-image: url(/assets/img/fest.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -350px;
+    background-size: 100%;
+    background-repeat: repeat;
+    /* background-position-y: -350px; */
     margin-top: 25px;
     margin-bottom: 25px;
     align-items: center;
@@ -375,15 +377,17 @@ video {
 
 .media {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
+    /* grid-template-columns: repeat(3, 1fr); */
     justify-content: center;
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .media iframe {
-    margin-top: 45px;
-    margin-left: 15px;
-    width: 300px;
+    margin:45px;
+    width: 250px;
+    height: 250px;
 }
 
 .media .videoprom {
@@ -391,7 +395,10 @@ video {
     height: 300px;
     margin-top: 20px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.media .videoprom:hover{
+    animation-play-state: running;
 }
 
 
