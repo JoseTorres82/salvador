@@ -377,8 +377,8 @@ video {
 
 .media {
     display: grid;
-    grid-auto-flow: column;
-    /* grid-template-columns: repeat(3, 1fr); */
+    
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     margin-bottom: 35px;
