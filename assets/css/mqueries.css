@@ -317,7 +317,7 @@ video {
         margin-top: 0;
         top: 50%;
         left: 0;
-        position: fixed;
+        position: absolute;
         pointer-events: none;
     }
 
