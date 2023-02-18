@@ -236,6 +236,21 @@ video {
         opacity: 45%;
         border-radius: 3px;
     }
+    .hero__container h2{ 
+        z-index: 1;
+        width: 100%;
+        font-family: 'Nova Flat', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 1.5rem;
+        line-height: 1.5px;
+        margin-top: 0;
+        top: 50%;
+        left: 0;
+        position: absolute;
+        pointer-events: none;
+    }
 
     .cards_secction {
         width: 100%;
@@ -289,6 +304,7 @@ video {
         opacity: 45%;
         border-radius: 3px;
     }
+
     .hero__container h2{ 
         z-index: 1;
         width: 100%;
