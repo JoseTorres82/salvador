@@ -16,8 +16,7 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+
     background: #000;
     color: #fff;
 
@@ -180,24 +179,28 @@ video {
 }
 
 .hero__container .hero-img img {
+    width:1100px;
     margin-top: 20px;
-    width: 1100px;
     height: 350px;
     overflow: hidden;
-    place-content: center;
     opacity: 45%;
     border-radius: 3px;
 }
 
-.hero__container h2 {
-    text-align: center;
-    font-size: 30px;
-    font-family: "Nova Flat", cursive;
-    position: absolute;
-    top: 350px;
-    left: calc(40%);
-}
-
+.hero__container h2{ 
+        z-index: 1;
+        width: 100%;
+        font-family: 'Nova Flat', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        font-size: 1.5rem;
+        line-height: 1.5px;
+        margin-top: 0;
+        top: 50%;
+        position: absolute;
+        pointer-events: none;
+    }
 /* -------------------Hero-------------------------- */
 
 .cards_secction h3 {
@@ -213,7 +216,7 @@ video {
     margin: 0 auto;
     place-content: center;
     columns: 5 320px;
-    column-gap: 15px;
+    column-gap: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -222,7 +225,7 @@ video {
     max-width: 320px;
     border-radius: 10px;
     margin: 0 auto;
-    margin: 10px;
+    margin: 5px;
     transition: all 0.3s ease-in-out;
 }
 

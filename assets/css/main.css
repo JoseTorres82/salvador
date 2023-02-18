@@ -21,7 +21,7 @@ h1, h2, h3 {
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-    border-radius: 16px;
+    border-radius: 3px;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 
 
 .contact-wrapper {
-    box-shadow: 0 0 15px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, .3);
 }
 
 .contact-wrapper > * {
@@ -125,6 +125,6 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-    border-radius: 16px;
+    border-radius: 3px;
 }
 }
