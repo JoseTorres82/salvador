@@ -185,10 +185,10 @@ video {
     color: #FFF;
     font-size: 1.5rem;
     line-height: 1.5px;
-    margin-top: 0;
-    top: 50%;
+    margin-top: 300px;
+    top: 0;
     left: 0;
-    position: absolute;
+    position:absolute;
     pointer-events: none;
 }
 
@@ -237,7 +237,7 @@ video {
         border-radius: 3px;
     }
     .hero__container h2{ 
-        z-index: 1;
+        z-index: 2;
         width: 100%;
         font-family: 'Nova Flat', cursive;
         text-align: center;
@@ -245,8 +245,8 @@ video {
         color: #FFF;
         font-size: 1.5rem;
         line-height: 1.5px;
-        margin-top: 0;
-        top: 50%;
+        margin-top: 300px;
+        top: 0;
         left: 0;
         position: absolute;
         pointer-events: none;
@@ -317,7 +317,7 @@ video {
         margin-top: 0;
         top: 50%;
         left: 0;
-        position: absolute;
+        position: fixed;
         pointer-events: none;
     }
 
