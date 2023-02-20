@@ -198,7 +198,7 @@
 
 
     /* ↑↑ Video Banner ↑↑  */
-/*     .media .carrusel  {
+    /*     .media .carrusel  {
         max-width: 320px;
         width: 100%;
         display: flex;
@@ -222,6 +222,7 @@
         padding: 0;
         align-items: center;
     }
+
     .media .carrusel {
         max-width: 320px;
         width: 100%;
@@ -230,17 +231,20 @@
         overflow: hidden;
         position: relative;
     }
-    .media .carrusel .contenido__carrusel{
+
+    .media .carrusel .contenido__carrusel {
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .media .carrusel .contenido__carrusel iframe {
         width: 280px;
         height: 300px;
         padding: 25px;
     }
-    
+
     .media .carrusel .contenido__carrusel .arrow a {
         width: 100%;
         height: 100%;
@@ -256,14 +260,16 @@
         top: 0;
         font-weight: 600;
         padding: 15px;
-         }
-         .media .carrusel .contenido__carrusel .arrow a i{
-            width: 100%;
-            height: 100%;
-            color: #FFF;
-            text-align: center;
 
-         }
+    }
+
+    .media .carrusel .contenido__carrusel .arrow a i {
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        text-align: center;
+
+    }
 
 }
 
@@ -313,8 +319,8 @@
         margin-bottom: 25px;
     }
 
-   
-/*     .media .carrusel .contenido__carrusel {
+
+    /*     .media .carrusel .contenido__carrusel {
         width: 319px;
         display: flex;
         overflow: hidden;
@@ -343,7 +349,7 @@
        
 
     } */
-    .media .carrusel .contenido__carrusel .arrow  {
+    .media .carrusel .contenido__carrusel .arrow {
         width: 100%;
         height: auto;
         display: flex;
