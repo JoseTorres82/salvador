@@ -179,7 +179,7 @@ video {
 }
 
 .hero__container .hero-img img {
-    width:1100px;
+    width:1000px;
     margin-top: 20px;
     height: 350px;
     overflow: hidden;
@@ -365,44 +365,45 @@ video {
 }
 
 /* media */
-.media {
+
+.media h2 {
+    z-index: 1;
+    color:crimson;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin: 20px;
+    cursor: none;
+    text-align: center;
+}
+.media .carrusel {
     max-width: 1100px;
     margin: 0 auto;
-    height: 400px;
-    background-image: url(/assets/img/fest.jpg);
-    background-size: 100%;
-    background-repeat: repeat;
-    /* background-position-y: -350px; */
-    margin-top: 25px;
-    margin-bottom: 25px;
-    align-items: center;
-}
-
-.media {
-    display: grid;
-    
-    grid-template-columns: repeat(3, 1fr);
+    width: 990px;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
-}
-
-.media iframe {
-    margin:45px;
-    width: 250px;
-    height: 250px;
-}
-
-.media .videoprom {
-    width: 320px;
-    height: 300px;
-    margin-top: 20px;
-    position: relative;
+    background: #161616;
     border-radius: 5px;
+    border-bottom: solid 5px crimson;
+    position: relative; 
 }
-.media .videoprom:hover{
-    animation-play-state: running;
+.media .carrusel .contenido__carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.media .carrusel .contenido__carrusel .arrow i{
+    display: none;
+}
+
+.media  .carrusel .contenido__carrusel {
+    width: 310px;
+    height: 320px;
+} 
+
 
 
 /**********************FOOTER******************************/
