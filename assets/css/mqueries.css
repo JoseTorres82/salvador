@@ -198,65 +198,26 @@
 
 
     /* ↑↑ Video Banner ↑↑  */
+   
     .media {
-        max-width: 315px;
+        max-width: 990;
         margin: 0 auto;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         position: relative;
     }
-    
+
     .media .carrusel {
         width: 100%;
-        margin: 0 auto;
-        margin: 25px;
-        overflow: hidden;
-        align-items: center;
-        padding: 15px;
-    }
-
-    .media .carrusel .contenido__carrusel {
-        width: 100%;
+        height: 400;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        gap: 25px;
     }
 
-    .media .carrusel .contenido__carrusel iframe {
-        width: 280px;
-        height: 300px;
-        padding: 20px;
-        margin: 25px;
-    }
-
-     .media .carrusel .contenido__carrusel .arrow  a {
-        position: absolute;
-        top: 0px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-
-    } 
-    .media .carrusel .contenido__carrusel .arrow  a i{
-        padding: 20px;
-        color: #FFF;
-        z-index: 1;
-        position: absolute;
-        top: 0px;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        align-items: center;
-
-        
-
-    }
     .contact-info iframe {
         max-width: 300px;
         margin: 0 auto;
@@ -305,43 +266,61 @@
 
     .cards_secction {
         width: 100%;
-        columns: 5 300px;
+        columns: 5 250px;
         column-gap: 20px;
         margin-top: 40px;
         margin-bottom: 25px;
     }
 
-
-    /*     .media .carrusel .contenido__carrusel {
-        width: 319px;
-        display: flex;
-        overflow: hidden;
-
-    }
-
-    .media .carrusel {
+   .media{ 
         width: 100%;
-        height: 400px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        padding: 0.5rem;
-        position: relative;
         align-items: center;
-    }
+        margin-left: 0;
 
-    .media .carrusel .contenido__carrusel .arrow a  {
+    } 
+
+    .media .carrusel{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+/*    .media .carrusel .contenido__carrusel iframe {
+        margin: 0 auto;
+        width: 260px;
+        height: 240px;
+        color: #FFF;
+        margin: 20px;
+
+    }
+    
+    .media .carrusel .contenido__carrusel .arrow {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        position: absolute; 
         width: 100%;
         height: 100%;
+        top: 0;
+    }
+    .media .carrusel .contenido__carrusel .arrow a i{
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
         color: #FFF;
-        font-family: sans-serif;
-        font-size: 60px;
-       
-
+        text-decoration: none;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        gap: 25px;
+        margin: 15px;
+        margin-left: 0;
     } */
-
 }
 
 
@@ -425,7 +404,7 @@
 
     .cards_secction h3 {
         color: crimson;
-        font-size: 22px;
+        font-size: 22--px;
         margin-bottom: 15px;
         text-align: center;
     }
@@ -450,7 +429,9 @@
     .cards_secction .cards__container img:hover {
         transform: none;
     }
-
+    .media .carrusel .contenido__carrusel{ 
+        display: block;
+    }
     .shop__banner {
         max-width: 480px;
         margin: 0 auto;
@@ -477,19 +458,6 @@
         text-align: center;
     }
 
-    /* .media {
-        width: 400px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-        align-items: center;
-        background-size: cover;
-        background-repeat: repeat;
-    }
-
-    .media video {
-        display: none;
-    } */
 
     .contact-info iframe {
         max-width: 300px;
@@ -613,6 +581,8 @@
         justify-items: center;
         align-items: center;
         text-align: center;
+        
+ 
     }
 
  
